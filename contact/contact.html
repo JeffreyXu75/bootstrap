@@ -29,14 +29,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="../home/home.html">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="../home/home.html">Home</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../about/about.html">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
             </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
@@ -49,10 +49,20 @@
 
     <!-- Begin page content -->
     <main role="main" class="container">
-      <h1 class="mt-5">About us</h1>
-      <p>Our main goal here at Planendar is to help users navigate through their day to day life 
-        while being able to keep track of their goals and what they they need to achieve. In the
-        end, we hope to help users find jobs by giving them the resources they need to succeed. </p>
+      <h1 class="mt-5">Contact us</h1>
+      <h3 class="mt-4">Your email</h3>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Email address" aria-label="email" aria-describedby="basic-addon1">
+      </div>
+      <h3 class="mt-4">What are you asking about?</h3>
+      <div class="input-group mb-3">
+        <textarea class="form-control" placeholder="Write your message here" aria-label="Write your message here"></textarea>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheck1">
+        <label class="custom-control-label" for="customCheck1">Check this if you would like to be added to our mailing list</label>
+      </div>
+      <button style="position:relative; top:50px;"type="button" class="btn btn-primary">Submit</button>
     </main>
 
     <footer class="footer">
